@@ -14,9 +14,53 @@
     <title>?</title>
   </head>
   <body>
-        
+    
+    <div class="container">
+      <header class="row">
+        <h1 class="col-12 text-center">Libro de visitas</h1>
+      </header>
+      <div class="row">
+        <h3>Comentarios pasados:</h3>
+      </div>
+      <div id="posts-container" class="row">
+        <div class="col-12 post border border-warning">
+          Me gusta front end development
+        </div>
+        <div class="col-12 post border border-warning">
+          Gracias por el contenido, es super util
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="col-12 text-center">Agregar un nuevo comentario</h2>
+        <div class="mx-auto">
+          <button class="btn btn-primary">Large</button>
+          <button class="btn btn-primary">Medium</button>
+          <button class="btn btn-primary">Small</button>
+          <button class="btn btn-primary">Color de texto</button>
+          <button class="btn btn-primary">Color de fondo</button>
+          <button class="btn btn-primary">Izquierda</button>
+          <button class="btn btn-primary">Centrar</button>
+          <button class="btn btn-primary">Derecha</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 form-group mt-1">
+          <textarea class="form-control" id="messageEntered" rows="3"></textarea>
+        </div>
+      </div>
+      
+      <div class="row">
+        <h2 class="col-12 text-center">Así se veria tu comentario</h2>
+        <div class="col-12 form-group mt-1">
+          <textarea class="form-control" id="messagePrevisual" rows="3"></textarea>
+        </div>
+        <button class="mx-auto btn btn-primary">Enviar comentario</button>
+      </div>
 
 
+
+
+    </div>
     <!-- jquery -->
     <script src="./js/jquery-3.2.1.min.js"></script>
     <!-- bootstrap -->
