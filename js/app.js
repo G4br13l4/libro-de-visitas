@@ -12,7 +12,6 @@ function showPreview() {
 
 //funcion para boton large
 
-posts.push({fontSize: "3em" });
 var largeBtn = document.getElementById("large-text");
 largeBtn.addEventListener("click", largeText);
 
@@ -70,8 +69,7 @@ function printMessage(messagePreview) {
     message.textContent = messageSubmitted.value;
     message.classList.add("col-12","border","border-warning"); 
     document.getElementById("posts-container").appendChild(message);
-    posts.push({content: messageSubmitted.value});
-    var posts =[];
+    
 }
 
 
