@@ -33,28 +33,28 @@
       <div class="row">
         <h2 class="col-12 text-center">Agregar un nuevo comentario</h2>
         <div class="mx-auto">
-          <button class="btn btn-primary">Large</button>
-          <button class="btn btn-primary">Medium</button>
-          <button class="btn btn-primary">Small</button>
-          <button class="btn btn-primary">Color de texto</button>
-          <button class="btn btn-primary">Color de fondo</button>
-          <button class="btn btn-primary">Izquierda</button>
-          <button class="btn btn-primary">Centrar</button>
-          <button class="btn btn-primary">Derecha</button>
+          <button class="btn btn-primary" id= "large-text">Large</button>
+          <button class="btn btn-primary" id= "medium-text">Medium</button>
+          <button class="btn btn-primary" id= "small-text">Small</button>
+          <button class="btn btn-primary" id="colored-text">Color de texto</button>
+          <button class="btn btn-primary" id="colored-box">Color de fondo</button>
+          <button class="btn btn-primary" id="left-position">Izquierda</button>
+          <button class="btn btn-primary" id="center-position">Centrar</button>
+          <button class="btn btn-primary" id="right-position">Derecha</button>
         </div>
       </div>
       <div class="row">
         <div class="col-12 form-group mt-1">
-          <textarea class="form-control" id="messageEntered" rows="3"></textarea>
+          <textarea class="form-control" id="message-submitted" rows="3"></textarea>
         </div>
       </div>
       
       <div class="row">
         <h2 class="col-12 text-center">Así se veria tu comentario</h2>
         <div class="col-12 form-group mt-1">
-          <textarea class="form-control" id="messagePrevisual" rows="3"></textarea>
+          <textarea class="form-control" id="message-previsual" rows="2"></textarea>
         </div>
-        <button class="mx-auto btn btn-primary">Enviar comentario</button>
+        <button class="mx-auto btn btn-primary" id="send-message">Enviar comentario</button>
       </div>
 
 
@@ -65,8 +65,6 @@
     <script src="./js/jquery-3.2.1.min.js"></script>
     <!-- bootstrap -->
     <script src="./js/bootstrap.min.js"></script>
-		<!-- Base de datos -->
-		<script src="./js/data.js"></script>
 		<!-- Aquí va tus archivos JS -->
     <script src="./js/app.js"></script>
   </body>
