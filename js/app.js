@@ -57,12 +57,41 @@ function coloredBox() {
     messagePreview.style.backgroundColor = color;
 }
 
+//funcion para mover texto a la izquierda
+
+var leftBtn = document.getElementById("left-position");
+leftBtn.addEventListener("click", leftPosition);
+
+function leftPosition() {
+    messagePreview.style.textAlign = "left";
+}
+
+//funcion para mover texto al centro
+
+var centerBtn = document.getElementById("center-position");
+centerBtn.addEventListener("click", centerPosition);
+
+function centerPosition() {
+    messagePreview.style.textAlign = "center";
+}
+
+//funcion para mover texto a la derecha
+
+var rightBtn = document.getElementById("right-position");
+rightBtn.addEventListener("click", rightPosition);
+
+function rightPosition() {
+    messagePreview.style.textAlign = "right";
+}
+
+//funcion para mandar style de message preview
+
+
+
 //funcion para pintar mensajes 
 
 var sendBtn = document.getElementById("send-message");
 sendBtn.addEventListener("click", printMessage);
-
-
 
 function printMessage(messagePreview) {
     var message = document.createElement("DIV");
